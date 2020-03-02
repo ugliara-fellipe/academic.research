@@ -1,6 +1,6 @@
 ## Programas
 
-Esses programas são compilados usando o compilador de Cyan, ele pode ser encontrado na pasta [projeto/jar](https://bitbucket.org/fellipe-ugliara/mestrado/src/master/projeto/jar/) com o nome de [saci.jar](https://bitbucket.org/fellipe-ugliara/mestrado/src/master/projeto/jar/saci.jar).
+Esses programas são compilados usando o compilador de Cyan, ele pode ser encontrado na pasta [projeto/jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/) com o nome de [saci.jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/saci.jar).
 
 Para simplificar essa tarefa foram criados *scripts* para realizar cada etapa necessária a compilação. Lembrando que esses scripts foram usados em um computador com o sistema operacional Ubuntu, e devem ser executados a partir dessa pasta. Etapas da compilação:
 
