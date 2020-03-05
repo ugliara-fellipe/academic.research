@@ -1,13 +1,13 @@
-## Programas
+## Applications
 
-Esses programas são compilados usando o compilador de Cyan, ele pode ser encontrado na pasta [projeto/jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/) com o nome de [saci.jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/saci.jar).
+These programs are compiled using the Cyan compiler, it can be found in the folder [project/jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/) with the name of [saci.jar](https://github.com/ugliara-fellipe/academic.research/tree/master/master's.degree/project/jar/saci.jar).
 
-Para simplificar essa tarefa foram criados *scripts* para realizar cada etapa necessária a compilação. Lembrando que esses scripts foram usados em um computador com o sistema operacional Ubuntu, e devem ser executados a partir dessa pasta. Etapas da compilação:
+To simplify this task, scripts were created to perform each necessary step in the compilation. Remembering that these scripts were used on a computer with an Ubuntu operating system, and must be executed from that folder. Compilation steps:
 
-- deps.sh: deve ser o primeiro *script* executado, ele irá instalar o Sdk Java;
-- config.h: esse *script* cria as pastas necessárias para se executar os programas e copia os arquivos .class dos metaobjetos para a pasta com as bibliotecas padrões de Cyan.
+- deps.sh: must be the first script executed, it will install Sdk Java;
+- config.h: this script creates the necessary folders to run the programs and copies the .class metaobjects files to a folder with the standard cyan libraries.
 
-Essas duas etapas não precisam ser repetidas entre a compilação de diferentes programas, a não ser que o compilador de Cyan seja recompilado.
+These two steps do not need to be repeated between compilations of programs, only if the cyan compiler will rebuild.
 
-- build.sh: esse script se encarrega de compilar o programa Cyan especificado, ele recebe o nome da pasta com o programa que será compilado;
-- run.sh: esse *script* deve ser chamado após o programa estar compilado, ele recebe como argumento o nome do programa que será executado, o número da instância associada a essa execução, e se necessário um parâmetro que será passado ao programa.
+- build.sh: this script allows the compilation of the specified Cyan program, it receives the name of the folder with the program to be compiled;
+- run.sh: this script could be called after the program was compiled, it receives as arguments: the name of the program that will be executed; the number of the instance associated with that execution; and the parameters that will be used by the program.
